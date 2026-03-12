@@ -2,17 +2,18 @@
 <html lang="en">
 
 <head>
+
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 <title>FreeToolBox - Free Online Tools & AI Guides</title>
 
-<meta name="description" content="FreeToolBox provides free online tools, AI tools list, tech guides and online earning tutorials.">
+<meta name="description" content="FreeToolBox provides free online tools, AI tools, tech guides and online earning tutorials.">
 
 <style>
 
 body{
-font-family: Arial, sans-serif;
+font-family:Arial;
 margin:0;
 background:#f4f4f4;
 }
@@ -49,17 +50,12 @@ color:#00c3ff;
 .hero{
 background:linear-gradient(135deg,#00c3ff,#0072ff);
 color:white;
-padding:60px 20px;
+padding:70px 20px;
 text-align:center;
 }
 
 .hero h1{
-font-size:40px;
-margin-bottom:10px;
-}
-
-.hero p{
-font-size:18px;
+font-size:42px;
 }
 
 .hero button{
@@ -67,8 +63,7 @@ padding:12px 25px;
 border:none;
 background:white;
 color:#0072ff;
-font-weight:bold;
-border-radius:5px;
+border-radius:6px;
 margin-top:20px;
 cursor:pointer;
 }
@@ -84,13 +79,15 @@ font-size:28px;
 margin-bottom:20px;
 }
 
-/* BLOG */
+/* GRID */
 
 .grid{
 display:grid;
 grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
 gap:20px;
 }
+
+/* CARD */
 
 .card{
 background:white;
@@ -103,15 +100,15 @@ box-shadow:0 2px 10px rgba(0,0,0,0.1);
 margin-top:0;
 }
 
-/* TOOL BUTTON */
+/* BUTTON */
 
 .tool-btn{
 display:inline-block;
-padding:10px 20px;
+padding:10px 18px;
 background:#0072ff;
 color:white;
 text-decoration:none;
-border-radius:5px;
+border-radius:6px;
 margin-top:10px;
 }
 
@@ -120,18 +117,29 @@ margin-top:10px;
 footer{
 background:#111;
 color:white;
-text-align:center;
-padding:30px;
-margin-top:40px;
+padding:40px 10%;
 }
 
-footer a{
+.footer-grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
+gap:30px;
+}
+
+.footer-grid a{
+display:block;
 color:#00c3ff;
 text-decoration:none;
-margin:0 10px;
+margin:5px 0;
+}
+
+.copy{
+text-align:center;
+margin-top:20px;
 }
 
 </style>
+
 </head>
 
 
@@ -143,12 +151,12 @@ margin:0 10px;
 
 <nav>
 
-<a href="#">Home</a>
-<a href="#">Blog</a>
-<a href="#">Free Tools</a>
-<a href="#">AI Tools</a>
-<a href="#">Online Earning</a>
-<a href="#">Contact</a>
+<a href="index.html">Home</a>
+<a href="tools.html">Tools</a>
+<a href="blog.html">Blog</a>
+<a href="ai-tools.html">AI Tools</a>
+<a href="earn-money.html">Online Earning</a>
+<a href="contact.html">Contact</a>
 
 </nav>
 
@@ -159,9 +167,11 @@ margin:0 10px;
 
 <h1>Free Online Tools & AI Guides</h1>
 
-<p>Use free tools, discover AI tools and learn how to earn money online.</p>
+<p>Use free tools, explore AI tools and learn online earning.</p>
 
+<a href="tools.html">
 <button>Explore Tools</button>
+</a>
 
 </section>
 
@@ -178,7 +188,7 @@ margin:0 10px;
 
 <p>Count words and characters instantly.</p>
 
-<a class="tool-btn" href="#">Open Tool</a>
+<a class="tool-btn" href="word-counter.html">Open Tool</a>
 
 </div>
 
@@ -187,9 +197,9 @@ margin:0 10px;
 
 <h3>Password Generator</h3>
 
-<p>Create secure passwords instantly.</p>
+<p>Create strong passwords instantly.</p>
 
-<a class="tool-btn" href="#">Open Tool</a>
+<a class="tool-btn" href="password-generator.html">Open Tool</a>
 
 </div>
 
@@ -198,9 +208,9 @@ margin:0 10px;
 
 <h3>QR Code Generator</h3>
 
-<p>Create QR codes for links or text.</p>
+<p>Create QR codes easily.</p>
 
-<a class="tool-btn" href="#">Open Tool</a>
+<a class="tool-btn" href="qr-generator.html">Open Tool</a>
 
 </div>
 
@@ -209,9 +219,9 @@ margin:0 10px;
 
 <h3>Image Compressor</h3>
 
-<p>Reduce image size without losing quality.</p>
+<p>Reduce image size easily.</p>
 
-<a class="tool-btn" href="#">Open Tool</a>
+<a class="tool-btn" href="image-compressor.html">Open Tool</a>
 
 </div>
 
@@ -222,7 +232,7 @@ margin:0 10px;
 
 <div class="container">
 
-<h2 class="section-title">📚 Latest Blog Articles</h2>
+<h2 class="section-title">📚 Latest Articles</h2>
 
 <div class="grid">
 
@@ -230,7 +240,9 @@ margin:0 10px;
 
 <h3>Best AI Tools in 2026</h3>
 
-<p>Discover the best AI tools that can boost productivity.</p>
+<p>Discover the best AI tools that improve productivity.</p>
+
+<a class="tool-btn" href="ai-tools.html">Read Article</a>
 
 </div>
 
@@ -239,7 +251,9 @@ margin:0 10px;
 
 <h3>How to Earn Money Online</h3>
 
-<p>Learn different ways to make money online.</p>
+<p>Learn the best methods to earn online.</p>
+
+<a class="tool-btn" href="earn-money.html">Read Article</a>
 
 </div>
 
@@ -250,6 +264,8 @@ margin:0 10px;
 
 <p>Create stunning images using AI tools.</p>
 
+<a class="tool-btn" href="ai-image-tools.html">Read Article</a>
+
 </div>
 
 
@@ -257,7 +273,9 @@ margin:0 10px;
 
 <h3>Best Chrome Extensions</h3>
 
-<p>Boost your browser productivity with these tools.</p>
+<p>Boost productivity with useful extensions.</p>
+
+<a class="tool-btn" href="chrome-extensions.html">Read Article</a>
 
 </div>
 
@@ -268,16 +286,55 @@ margin:0 10px;
 
 <footer>
 
-<p>© 2026 FreeToolBox</p>
+<div class="footer-grid">
 
-<p>
+<div>
 
-<a href="#">About</a>
-<a href="#">Privacy Policy</a>
-<a href="#">Disclaimer</a>
-<a href="#">Terms</a>
+<h3>FreeToolBox</h3>
 
-</p>
+<p>Free online tools, AI guides and tech resources.</p>
+
+</div>
+
+<div>
+
+<h3>Pages</h3>
+
+<a href="index.html">Home</a>
+<a href="tools.html">Tools</a>
+<a href="blog.html">Blog</a>
+<a href="about.html">About</a>
+<a href="contact.html">Contact</a>
+
+</div>
+
+<div>
+
+<h3>Legal</h3>
+
+<a href="privacy-policy.html">Privacy Policy</a>
+<a href="disclaimer.html">Disclaimer</a>
+<a href="terms.html">Terms</a>
+
+</div>
+
+<div>
+
+<h3>Popular Tools</h3>
+
+<a href="word-counter.html">Word Counter</a>
+<a href="password-generator.html">Password Generator</a>
+<a href="qr-generator.html">QR Generator</a>
+
+</div>
+
+</div>
+
+<div class="copy">
+
+© 2026 FreeToolBox
+
+</div>
 
 </footer>
 
