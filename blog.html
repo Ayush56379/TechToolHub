@@ -1,227 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
 <title>Blog - FreeToolBox</title>
-
+<meta name="description" content="Technology and AI blog">
 <style>
-
-body{
-font-family:Arial;
-margin:0;
-background:#f4f4f4;
-line-height:1.6;
-}
-
-/* BACK BUTTON */
-
-.back-btn{
-position:fixed;
-top:20px;
-left:20px;
-background:#0072ff;
-color:white;
-border:none;
-padding:10px 15px;
-border-radius:6px;
-cursor:pointer;
-}
-
-/* HEADER */
-
-header{
-background:#111;
-color:white;
-padding:15px;
-display:flex;
-justify-content:space-between;
-}
-
-nav a{
-color:white;
-margin-left:20px;
-text-decoration:none;
-}
-
-/* CONTAINER */
-
-.container{
-padding:40px 10%;
-}
-
-/* GRID */
-
-.grid{
-display:grid;
-grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
-gap:25px;
-}
-
-/* BLOG CARD */
-
-.card{
-background:white;
-padding:20px;
-border-radius:10px;
-box-shadow:0 2px 10px rgba(0,0,0,0.1);
-}
-
-.card h3{
-margin-top:0;
-}
-
-.read-btn{
-display:inline-block;
-margin-top:10px;
-padding:10px 18px;
-background:#0072ff;
-color:white;
-text-decoration:none;
-border-radius:5px;
-}
-
-/* FOOTER */
-
-footer{
-background:#111;
-color:white;
-text-align:center;
-padding:20px;
-margin-top:40px;
-}
-
+body{font-family:Arial;margin:0;background:#f4f4f4;line-height:1.7;}
+header{background:#111;color:white;padding:15px;display:flex;justify-content:space-between;}
+nav a{color:white;margin-left:20px;text-decoration:none;}
+.container{max-width:900px;margin:auto;background:white;padding:40px;margin-top:30px;border-radius:10px;}
+footer{background:#111;color:white;padding:30px;margin-top:40px;text-align:center;}
 </style>
-
 </head>
-
 <body>
 
-<button class="back-btn" onclick="goBack()">⬅ Back</button>
-
 <header>
-
 <div><b>FreeToolBox</b></div>
-
 <nav>
 <a href="index.html">Home</a>
 <a href="tools.html">Tools</a>
 <a href="blog.html">Blog</a>
+<a href="about.html">About</a>
+<a href="contact.html">Contact</a>
 </nav>
-
 </header>
 
-
 <div class="container">
-
-<h1>Latest Blog Articles</h1>
-
-<div class="grid">
-
-<div class="card">
-
-<h3>Best AI Tools in 2026</h3>
-
-<p>
-Discover the most powerful AI tools that can improve productivity,
-content creation, and online business growth.
-</p>
-
-<a class="read-btn" href="#">Read Article</a>
-
+<h1>Blog</h1>
+<p>Read helpful technology, AI and online earning articles.</p>
 </div>
-
-
-<div class="card">
-
-<h3>How to Earn Money Online</h3>
-
-<p>
-Learn the best ways to make money online including blogging,
-affiliate marketing, freelancing and digital products.
-</p>
-
-<a class="read-btn" href="#">Read Article</a>
-
-</div>
-
-
-<div class="card">
-
-<h3>Top Free AI Image Generators</h3>
-
-<p>
-Create stunning images using AI image generators. These tools
-help designers, bloggers and marketers create visuals quickly.
-</p>
-
-<a class="read-btn" href="#">Read Article</a>
-
-</div>
-
-
-<div class="card">
-
-<h3>Best Chrome Extensions</h3>
-
-<p>
-Boost your productivity with the best Chrome extensions for
-students, professionals and developers.
-</p>
-
-<a class="read-btn" href="#">Read Article</a>
-
-</div>
-
-
-<div class="card">
-
-<h3>How to Start a Blog</h3>
-
-<p>
-Starting a blog is one of the best ways to build an online
-business and generate passive income.
-</p>
-
-<a class="read-btn" href="#">Read Article</a>
-
-</div>
-
-
-<div class="card">
-
-<h3>SEO Basics for Beginners</h3>
-
-<p>
-Learn the fundamentals of SEO and how to rank your website
-higher on search engines.
-</p>
-
-<a class="read-btn" href="#">Read Article</a>
-
-</div>
-
-</div>
-
-</div>
-
 
 <footer>
-
 <p>© 2026 FreeToolBox</p>
-
 </footer>
-
-<script>
-
-function goBack(){
-window.history.back();
-}
-
-</script>
 
 </body>
 </html>
